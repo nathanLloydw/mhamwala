@@ -1,0 +1,23 @@
+title: Prints
+fields:
+  -
+    handle: title
+    field:
+      input_type: text
+      antlers: false
+      display: Title
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      read_only: false
+  -
+    handle: limit
+    field:
+      default: '3'
+      display: Limit
+      type: float
+      icon: float
+      listable: hidden
+      instructions_position: above
+      read_only: false

@@ -5,7 +5,12 @@ module.exports = {
       './resources/**/*.vue',
   ],
   theme: {
-    extend: {},
+    extend: {
+        fontFamily:{
+            'CodePro':['"Source Code Pro"'],
+            'Abel':['"Abel"']
+        }
+    },
   },
   plugins: [],
 }

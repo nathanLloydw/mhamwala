@@ -1,0 +1,9 @@
+title: Prints
+template: default
+layout: layout
+revisions: false
+route: 'prints/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private

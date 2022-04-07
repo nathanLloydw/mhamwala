@@ -1,0 +1,33 @@
+title: Components
+fields:
+  -
+    handle: components
+    field:
+      collapse: false
+      sets:
+        prints:
+          display: Prints
+          fields:
+            -
+              import: prints
+        call_to_action:
+          display: 'Call to Action'
+          fields:
+            -
+              import: call_to_action
+        image:
+          display: Image
+          fields:
+            -
+              import: image
+        contact:
+          display: Contact
+          fields:
+            -
+              import: contact
+      display: Components
+      type: replicator
+      icon: replicator
+      listable: hidden
+      instructions_position: above
+      read_only: false
