@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" sizes="16x16 32x32"/>
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset(asset('css/app.css')) }}" rel="stylesheet">
     <script src="https://kit.fontawesome.com/29f99118dd.js" crossorigin="anonymous"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Abel&family=Source+Code+Pro:wght@200&display=swap');
@@ -20,6 +20,6 @@
     @yield('content')
 </div>
 
-<script src="{{ mix('js/app.js') }}" type="application/javascript"></script>
+<script src="{{ secure_asset(mix('js/app.js')) }}" type="application/javascript"></script>
 </body>
 </html>
