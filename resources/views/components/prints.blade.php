@@ -2,7 +2,7 @@
 
 <section class="my-12 restrain mx-auto">
     <h1 class="mx-auto w-max">{{ $component['title'] }}</h1>
-    <div class="my-14 mx-10 py-8 border-t border-gray-300 flex">
+    <div class="my-14 mx-10 py-8 border-t border-gray-300 flex flex-col md:flex-row">
         @foreach (Statamic::tag('collection:artworks')->limit($component['limit'])->sort('title:desc') as $entry)
             <a href="{{$entry->permalink}}" class="w-full md:w-1/3 artwork cursor-pointer">
                 <div class="m-1 flex flex-col">
